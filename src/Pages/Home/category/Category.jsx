@@ -23,6 +23,7 @@ export default function Category() {
         grabCursor={true}
         centeredSlides={true}
         slidesPerView={'auto'}
+          spaceBetween={10}
         coverflowEffect={{
           rotate: 50,
           stretch: 0,
@@ -41,19 +42,19 @@ export default function Category() {
            <img height={'405px'} width={'273px'} src={slide1} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slide2} alt="" />
+          <img height={'405px'} width={'273px'} src={slide2} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-         <img src={slide3} alt="" />
+         <img height={'405px'} width={'273px'} src={slide3} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slide4} alt="" />
+          <img height={'405px'} width={'273px'} src={slide4} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slide5} alt="" />
+          <img height={'405px'} width={'273px'} src={slide5} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slide6} alt="" />
+          <img height={'405px'} width={'273px'} src={slide6} alt="" />
         </SwiperSlide>
        
       </Swiper>
